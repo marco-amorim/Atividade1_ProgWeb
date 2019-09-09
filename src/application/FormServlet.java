@@ -82,7 +82,7 @@ public class FormServlet extends HttpServlet {
 				+ "		<input type=\"checkbox\" name=\"disciplina\" value=\"Química\"> Química\r\n<br><br>"
 				+ "		<input type=\"submit\" value=\"Cadastrar\" " + "</form><br><br>");
 
-		out.println("<table border=\"2\" width=\"500\" align=\"left\">" + "<tr>" + "<th>Nome</th>" + "<th>Idade</th>"
+		out.println("<table border=\"2\" align=\"left\">" + "<tr>" + "<th>Nome</th>" + "<th>Idade</th>"
 				+ "<th>Sexo</th>" + "<th>Disciplinas</th>" + "</tr>");
 
 		for (Student x : listStudents) {
