@@ -83,7 +83,7 @@ public class FormServlet extends HttpServlet {
 				+ "		<input type=\"submit\" value=\"Cadastrar\" " + "</form><br><br>");
 
 		out.println("<table border=\"2\" align=\"left\">" + "<tr>" + "<th>Nome</th>" + "<th>Idade</th>"
-				+ "<th>Sexo</th>" + "<th>Disciplinas</th>" + "</tr>");
+				+ "<th>Gênero</th>" + "<th>Disciplinas</th>" + "</tr>");
 
 		for (Student x : listStudents) {
 			out.println("<tr>" + "<td>" + x.getName() + "</td>" + "<td>" + x.getAge() + "</td>" + "<td>" + x.getGender()
